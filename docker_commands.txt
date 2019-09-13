@@ -1,0 +1,5 @@
+dockerx build -f Dockerfile -t harshaarticle .
+
+dockerx run -p 8080:6125 harshaarticle
+
+dockerx images
